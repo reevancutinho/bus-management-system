@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>type2_bus_data</title>
+   <link rel="stylesheet" type="text/css" href="style5.css">
+   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+   <form action="adminentry2.php" method="post">
+   <div class="bus_data">
+      <h1>Enter data</h1>
+          <div class="textbox">
+
+            <p>
+               Enter bus number:<input type="text" name="bus_number" placeholder="bus number">
+            </p>
+            <p>
+               Enter the bus name:<input type="text" name="busname" placeholder="busname" value="">
+            </p>
+            <p>
+               Enter the route number:<input type="text" name="route_number" placeholder="route number">
+            </p>
+            <p>
+               Enter starting place:<input type="text" name="start" placeholder="starting place"  value="">
+            </p>
+            <p>    
+               Enter destination:<input type="text" name="destination" placeholder="destination"  value="">
+            </p>
+            <p>
+               select the type of bus:
+               <select name="bus_type">
+                  <option value="tourist">Tourist</option>
+            </p>
+            <p>
+               Enter ticket price in rupees:<input type="text" name="price" placeholder="price">
+            </p>
+            <p>
+               Enter the arrival time:<input type="text" name="arrival" placeholder="arrival time">
+            </p>
+            <p>
+               Enter the departure time:<input type="text" name="departure" placeholder="departure time">
+            </p>
+          <button>
+            <input type="submit" name="submit">  
+          </button>
+       </div>
+   </div>
+    </form>
+</body>
+</html>
